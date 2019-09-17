@@ -47,6 +47,8 @@ ax2.plot(w_grid, g, color='red')
 ax2.set_ylabel('Função política', color='red')
 ax2.tick_params(direction='in', labelcolor='red')
 
+plt.savefig("Figuras/fig.pdf")
+
 plt.show()
 
 
